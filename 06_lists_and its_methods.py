@@ -1,0 +1,16 @@
+listVariable = [1, 2, 3, 4, 5, 67, 8, 9, 0, 1, 6]
+
+print("listVariable ===>>> ", listVariable)
+listVariable.sort()
+print("listVariable after sort ===>>> ", listVariable)
+listVariable.reverse()
+print("listVariable after reverse ===>>> ", listVariable)
+listVariable.append(555)
+print("listVariable after append 555 ===>>> ", listVariable)
+listVariable.insert(3, 111)
+print("listVariable after insert 111 on the 3rd index ===>>> ", listVariable)
+listVariable.pop(3)
+print("listVariable after removing 3rd index ===>>> ", listVariable)
+listVariable.remove(3)
+print("listVariable after removing 3 from the list ===>>> ", listVariable)
+print("Total recursion of 1 in listVariable ===>>> ", listVariable.count(1))
