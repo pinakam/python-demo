@@ -18,6 +18,8 @@ class Employee(Person):
 
     def getDetails(self):
         print("Get details from the Employee class")
+        person_details = super().getDetails()
+        print("personDetails ===>>> ", person_details)
 
 
 class Programmer(Employee):
